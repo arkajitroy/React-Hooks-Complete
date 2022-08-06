@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800&display=swap");
+
+.App {
+  text-align: center;
+  font-family: "Urbanist", sans-serif;
+}
+
+/* Reusuable CSS */
+
+.btn-container {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.input-container {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.input-space {
+  text-align: center;
+  width: 15rem;
+  border: 0;
+}
+
+.input-space-2 {
+  text-align: center;
+  height: 2.5rem;
+  width: 15rem;
+  border: 0;
+}
+
+.btn {
+  padding: 1rem;
+  color: white;
+  background-color: black;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgb(13, 39, 132);
+  font-weight: bold;
+}
+
+/* hooks */
+
+.use-state {
+  margin: 1rem auto 0;
+  height: 25rem;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(209, 209, 255);
+  border-radius: 0.8rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+  line-height: 0.5;
+}
+
+.use-effect {
+  margin: 1rem auto 0;
+  height: 28rem;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(230, 255, 214);
+  border-radius: 0.8rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+  line-height: 0.5;
+}
